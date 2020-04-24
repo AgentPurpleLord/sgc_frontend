@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+import axios from '@/axios'
 
 export default {
   name: 'HomePage',
@@ -27,7 +27,7 @@ export default {
   },
   mounted () {
     axios
-      .get('http://localhost:8000/api/v2/pages/3/')
+      .get('pages/3/')
       .then(response => (this.item = response.data))
   }
 }
