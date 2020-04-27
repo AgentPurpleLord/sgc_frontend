@@ -18,7 +18,6 @@ import axios from '@/axios'
 
 export default {
   name: 'HomePage',
-  el: '#HomePage',
   data () {
     return {
       GamingController: require('@/assets/svg/GamingController.svg'),
