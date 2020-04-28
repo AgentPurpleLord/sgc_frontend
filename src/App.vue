@@ -11,6 +11,13 @@ import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'app',
+  title: 'Start Game Crusaders',
+  data: () => {
+    return {
+      mobileView: false,
+      showNav: false
+    }
+  },
   components: {
     HomePage,
     Navigation,
